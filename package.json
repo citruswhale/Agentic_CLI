@@ -1,0 +1,24 @@
+{
+  "name": "scaler-clone-agent",
+  "version": "1.0.0",
+  "description": "Conversational CLI agent that clones the Scaler Academy website by generating HTML/CSS/JS files via natural-language instructions.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "cli",
+    "openai",
+    "scaler"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "openai": "^4.67.3"
+  }
+}
